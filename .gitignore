@@ -26,6 +26,7 @@
 !/archive/README.md
 
 # Secrets and local configuration
+/.local/
 .env
 .env.*
 !.env.example
