@@ -1,14 +1,31 @@
 # Migration Status
 
-更新日: 2026-08-16
+更新日: 2026-08-17
 
 ## 完了
 
 - 新しいルート `C:\Users\withd\workspace` の設計と共通ルールを作成
-- 旧 `dev\git-tshinohara` を `workspace\external\tshinohara` へ移動
-- 旧 `dev\team` を `workspace\team` へ移動
+- デスクトップPCで旧 `dev\git-tshinohara` を `workspace\external\tshinohara` へ移動
+- デスクトップPCで旧 `dev\team` を `workspace\team` へ移動
 
-## 移動していないもの
+## 端末別の移植状況
+
+### desktop
+
+- `external/tshinohara` と `team` は移動済みと記録されている。
+- 移動時の既存差分は下記の記録を維持し、再確認なしに変更しない。
+
+### notebook-withd
+
+- `C:\Users\withd\workspace\external\tshinohara` は未作成。
+- `C:\Users\withd\workspace\team` は未作成。
+- 旧資産は `C:\Users\withd\dev\git-tshinohara` と `C:\Users\withd\dev\team` に残っている。
+- 旧 `research` 内の同名リポジトリを含め、team・tshinohara由来資産は読み取り専用とする。
+- `Nudec` は `external/tshinohara/Nudec` に正式分類する。
+- `LatticeEditor/programs/itakami/*.py` の未追跡4件は移植せず、旧 `dev` 側に保全する。
+- tshinoharaリポジトリ内の `build/lib` は生成物として移植対象から除外するが、削除しない。
+
+## デスクトップPCで移動していないもの
 
 ユーザーから移動権限が与えられていないため、次は旧 `C:\Users\withd\dev` に残しています。
 

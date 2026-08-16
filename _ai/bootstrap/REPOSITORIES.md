@@ -17,5 +17,12 @@
 - `external/tshinohara/OutputPlotter` — `git@github.com:tshinohara0/OutputPlotter.git`
 - `external/tshinohara/ParaText` — `git@github.com:tshinohara0/ParaText.git`
 - `external/tshinohara/ShinoHydroV2` — `git@github.com:tshinohara0/ShinoHydroV2.git`
+- `external/tshinohara/Nudec` — `git@github.com:tshinohara0/Nudec.git`
 
-`LatticeEditor` と `Nudec` は移動元では独立Gitリポジトリとして検出されませんでした。別PCへの複製方法を決めるまで、元データを保全してください。
+## Notebook migration notes
+
+- `notebook-withd` では `team/` と `external/tshinohara/` はまだ新workspaceへ移植されていない。
+- 旧配置は `C:\Users\withd\dev\team` と `C:\Users\withd\dev\git-tshinohara`。
+- `Nudec` はノートPC上で `tshinohara0/Nudec` のGitリポジトリとして確認され、`external/tshinohara/Nudec` に正式分類する。
+- `LatticeEditor` のGit追跡部分は外部リポジトリだが、未追跡の `programs/itakami/*.py` 4件が混在する。新workspaceへ移植せず、旧 `dev` 側に保全する。
+- 各リポジトリ内の `build/lib` は生成物として移植判断の対象外にする。ただし読み取り専用資産内では削除しない。

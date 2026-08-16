@@ -10,3 +10,7 @@ MVP入力検査、MARBLE実行準備、計算結果整理、研究知識への�
 - `mvp-run-preparation/`
 - `marble-result-analysis/`
 - `promote-research-knowledge/`
+
+利用可能な原本:
+
+- `team-sync-check/` — 複数PC間でteamリポジトリのGit状態と同期リスクを読み取り専用で確認する
