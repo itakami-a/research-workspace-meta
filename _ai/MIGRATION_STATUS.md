@@ -17,12 +17,13 @@
 
 ### notebook-withd
 
-- `C:\Users\withd\workspace\external\tshinohara` は未作成。
-- `C:\Users\withd\workspace\team` は未作成。
+- 2026-08-17に `external/tshinohara` の9リポジトリをGitHubから新規cloneした。
+- 2026-08-17に `team/Study-on-Tube-Fast-Reactor` の `itakami` branchをGitHubから新規cloneした。
+- clone後、全リポジトリでorigin、branch、HEAD、upstream、cleanな作業ツリーを確認した。
 - 旧資産は `C:\Users\withd\dev\git-tshinohara` と `C:\Users\withd\dev\team` に残っている。
 - 旧 `research` 内の同名リポジトリを含め、team・tshinohara由来資産は読み取り専用とする。
 - `Nudec` は `external/tshinohara/Nudec` に正式分類する。
-- `LatticeEditor/programs/itakami/*.py` の未追跡4件は移植せず、旧 `dev` 側に保全する。
+- `LatticeEditor` のGit追跡部分は `external/tshinohara/LatticeEditor` へ新規cloneした。旧 `LatticeEditor/programs/itakami/*.py` の未追跡4件は移植せず、旧 `dev` 側に保全する。
 - tshinoharaリポジトリ内の `build/lib` は生成物として移植対象から除外するが、削除しない。
 
 ## デスクトップPCで移動していないもの

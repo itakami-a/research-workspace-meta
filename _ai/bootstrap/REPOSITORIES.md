@@ -21,8 +21,8 @@
 
 ## Notebook migration notes
 
-- `notebook-withd` では `team/` と `external/tshinohara/` はまだ新workspaceへ移植されていない。
+- `notebook-withd` では2026-08-17に `team/` と `external/tshinohara/` をGitHubから新規cloneした。
 - 旧配置は `C:\Users\withd\dev\team` と `C:\Users\withd\dev\git-tshinohara`。
 - `Nudec` はノートPC上で `tshinohara0/Nudec` のGitリポジトリとして確認され、`external/tshinohara/Nudec` に正式分類する。
-- `LatticeEditor` のGit追跡部分は外部リポジトリだが、未追跡の `programs/itakami/*.py` 4件が混在する。新workspaceへ移植せず、旧 `dev` 側に保全する。
+- `LatticeEditor` のGit追跡部分は `external/tshinohara/LatticeEditor` へ新規cloneした。旧配置にある未追跡の `programs/itakami/*.py` 4件は新workspaceへ移植せず、旧 `dev` 側に保全する。
 - 各リポジトリ内の `build/lib` は生成物として移植判断の対象外にする。ただし読み取り専用資産内では削除しない。
