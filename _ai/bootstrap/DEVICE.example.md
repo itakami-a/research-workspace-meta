@@ -4,6 +4,7 @@ device_id: notebook
 device_role: mobile-research
 workspace_path: C:\Users\<user>\workspace
 legacy_research_path: C:\Users\<user>\dev\research
+handoff_path: _ai/handoffs/notebook-withd.md
 
 ## Notes
 
