@@ -1,0 +1,45 @@
+# Protected nested repositories and imported data
+/team/
+/external/
+
+# Existing or future independent repositories
+/notes/obsidian-vault/
+
+# Daily scratch work and archives
+/work/inbox/
+/work/archive/
+/work/projects/*
+!/work/projects/README.md
+/work/experiments/*
+!/work/experiments/README.md
+
+# Large or reproducible computation outputs
+/compute/**/runs/
+/compute/**/cases/
+
+# Local-only areas
+/personal/*
+!/personal/README.md
+/sandbox/*
+!/sandbox/README.md
+/archive/*
+!/archive/README.md
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Generated and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+~$*
+*.tmp
+*.log
+*.log.txt
+.DS_Store
+Thumbs.db

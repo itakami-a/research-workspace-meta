@@ -1,0 +1,15 @@
+---
+description: Protect read-only assets and route work to the correct workspace area
+alwaysApply: true
+---
+
+# Workspace Boundaries
+
+- Treat `team/**` and `external/**` as strictly read-only.
+- Treat `notes/**` as read-only unless the user explicitly requests an edit.
+- Never reuse an earlier exception to a protected-path rule.
+- Put daily project work in `work/projects/<project>/sessions/`.
+- Put unclassified work in `work/inbox/`.
+- Put validated reusable knowledge in `knowledge/`.
+- Put MVP and MARBLE execution data in `compute/`, not beside source documents.
+- Read the root `AGENTS.md` before making changes.
