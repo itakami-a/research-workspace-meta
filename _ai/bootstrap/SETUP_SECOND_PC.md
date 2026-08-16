@@ -14,6 +14,8 @@
 6. Obsidian Vaultを `notes/obsidian-vault/` にcloneする。
 7. 必要な自作Skillを `_ai/skills-src/` から、そのCodex環境が認識する標準のSkill領域へ導入する。
 8. `_ai/mcp/` の説明に従ってMCPを設定する。秘密情報はリポジトリへ保存しない。
+9. 旧 `research` からルールを移植する場合は、`MIGRATE_ANOTHER_PC.md` に従い、最初は読み取り専用で候補一覧を作る。
+10. Gitリポジトリの版が異なる場合は、`REPO_RECONCILIATION.md` に従い、両端末の状態を比較してから同期方法を決める。
 
 ## 注意
 
