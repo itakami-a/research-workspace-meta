@@ -23,5 +23,6 @@
 - `external/tshinohara` 配下の `CompactEditor`、`IndexHandler`、`OutputIndexer`、`OutputPlotter`、`ParaText` には未追跡の `build/` が存在していた
 - `team/Study-on-Tube-Fast-Reactor` には698件の既存差分があり、主に追跡済みファイルの削除として表示されていた
 - 移行では各リポジトリ内部を変更せず、親ディレクトリを丸ごと移動した
+- `team` の全6798ファイルは新しい場所へ移動済み。ただし旧 `dev\\team` には、別プロセスが使用中のため削除できなかった空ディレクトリの骨格だけが残っている
 
 この状態をユーザーの確認なしに復元、削除、コミットしてはいけません。
